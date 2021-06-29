@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19786" started-at="2021-06-29T00:16:21 IST" finished-at="2021-06-29T00:16:41 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19786" started-at="2021-06-29T00:16:21 IST" finished-at="2021-06-29T00:16:41 IST">
+      <class name="com.test.swag.Tests.SwagTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.swag.Tests.SwagTests@1534f01b]" name="setup" is-config="true" duration-ms="12494" started-at="2021-06-29T00:16:21 IST" finished-at="2021-06-29T00:16:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="swagTestsSetup()[pri:0, instance:com.test.swag.Tests.SwagTests@1534f01b]" name="swagTestsSetup" is-config="true" duration-ms="217" started-at="2021-06-29T00:16:33 IST" finished-at="2021-06-29T00:16:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swagTestsSetup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.test.swag.Tests.SwagTests@1534f01b]" name="loginTest" duration-ms="6638" started-at="2021-06-29T00:16:33 IST" description="Verify user logs into the app as standard user" finished-at="2021-06-29T00:16:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.swag.Tests.SwagTests@1534f01b]" name="tearDown" is-config="true" duration-ms="393" started-at="2021-06-29T00:16:40 IST" finished-at="2021-06-29T00:16:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.swag.Tests.SwagTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

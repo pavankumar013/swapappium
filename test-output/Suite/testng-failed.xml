@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="SwagLabTests(failed)">
+    <classes>
+      <class name="com.test.swag.Tests.SwagTests">
+        <methods>
+          <include name="swagTestsSetup"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.test.swag.Tests.SwagTests -->
+    </classes>
+  </test> <!-- SwagLabTests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
