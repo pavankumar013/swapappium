@@ -69,5 +69,16 @@ public static void scrollup(AndroidDriver<MobileElement> driver, MobileElement e
 	TouchAction action = new TouchAction(driver);	
 	 action.longPress(PointOption.point(200, 300)).moveTo(PointOption.point(600, 1000)).release().perform();
 }
+	public static void type(MobileElement element,String textToEnter)
+{
+	element.click();
+	element.sendKeys(textToEnter);
+	
+}
+
+public static void tapDeviceBack(AndroidDriver<MobileElement> driver)
+{
+	driver.navigate().back();
+}
 
 }
