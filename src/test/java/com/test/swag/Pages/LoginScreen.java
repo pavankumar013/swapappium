@@ -62,7 +62,12 @@ public class LoginScreen  extends BasePomPage {
 		
 		public Boolean scrolldown()
 		{
+			CommonLibrary.isElementPresent(driver, loginCTA);
 			CommonLibrary.scrollDown(driver);
+			if(standardUserText.size()==0)
+			{
+				CommonLibrary.scrollDown(driver);
+			}
 			return standardUserText.size()>0;
 		}
 		
